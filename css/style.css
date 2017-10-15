@@ -1,0 +1,441 @@
+@charset "UTF-8";
+
+html {
+  /*font-size: 62.5%;*/
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: bold;
+}
+
+body {
+  background: #EBF6F6;
+  color: #000;
+  font-family: "Yu Gothic", YuGothic;
+  margin: 0;
+  animation: fadeIn 0.5s ease 0s 1 normal;
+  -webkit-animation: fadeIn 0.5s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.header {
+  background: #fff;
+  padding: 32px 60px 24px;
+  height: 116px;
+}
+.menu {
+  position: relative;
+}
+.menu-title{
+}
+.menu-contents {
+  position: absolute;
+  top: 32px;
+  right: 30px;
+}
+.works {
+  margin: 0 auto;
+  padding: 40px 16px;
+  max-width: 937px;
+}
+.works-container {
+  display: flex;
+	justify-content: space-between;
+}
+.work-title {
+  font-weight: bold;
+}
+.work-large img {
+  width: 100%;
+  height: 432px;
+  object-fit: cover;
+}
+.work-small img {
+  width: 432px;
+  height: 432px;
+  object-fit: cover;
+}
+.img-container {
+  object-fit: cover;
+  overflow: hidden;
+}
+.work img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+.work:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.work {
+  margin: 20px auto;
+  padding: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+.work a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.work-summary {
+  padding: 8px 0 0;
+  margin: 0;
+}
+.work-summary p {
+  padding: 4px 0;
+  margin: 0;
+}
+
+.navigation {
+  font-weight: bold;
+  max-width: 654px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  padding: 48px 0;
+  text-align: center;
+  font-weight: 100;
+  font-size: 18px;
+  color: #9b9b9b;
+}
+
+/* work detail */
+
+.work-detail {
+    margin: 0 auto;
+    padding: 86px 0 32px;
+    width: 810px;
+}
+
+.work-detail img {
+  max-width: 600px;
+  box-shadow: 0 0 20px 20px rgba(0,0,0,0.02);
+}
+
+.work-detail .image-square img {
+  max-width: 500px;
+  box-shadow: 0 0 20px 20px rgba(0,0,0,0.02);
+}
+
+.work-detail .description {
+  max-width: 654px;
+  margin: 64px auto 88px;
+}
+
+.work-detail .image-square {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.work-detail .image {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tag {
+  margin: 8px 0 40px;
+  font-size: 16px;
+  color: #333;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* about me */
+.about-contents {
+  margin: 0 auto;
+  padding: 86px 0 32px;
+  max-width: 1056px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-image img {
+  width: 500px;
+  height: 500px;
+  padding: 0 16 0;
+}
+
+.about-description {
+  width: 500px;
+  padding: 0 24px 0 16px;
+  font-size: 18px;
+}
+
+.about-navigation {
+  text-align: center;
+  font-weight: bold;
+  max-width: 654px;
+  margin: 120px auto 50px;
+}
+
+.role {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.contact {
+  padding: 0;
+  margin: 0 0 40px;
+}
+
+@media (max-width: 768px) {
+  html {
+    /*font-size: 62.5%;*/
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Bold");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Bold");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Bold");
+    font-weight: bold;
+  }
+
+  body {
+    background: #EBF6F6;
+    color: #000;
+    font-family: "Yu Gothic", YuGothic;
+    margin: 0;
+    animation: fadeIn 0.5s ease 0s 1 normal;
+    -webkit-animation: fadeIn 0.5s ease 0s 1 normal;
+  }
+
+  @keyframes fadeIn {
+      0% {opacity: 0}
+      100% {opacity: 1}
+  }
+
+  @-webkit-keyframes fadeIn {
+      0% {opacity: 0}
+      100% {opacity: 1}
+  }
+
+  .header {
+    background: #fff;
+    padding: 16px 16px 8px;
+    height: 76px;
+  }
+  .menu {
+    position: relative;
+  }
+  .menu-title{
+  }
+  .menu-contents {
+    position: absolute;
+    top: 16px;
+    right: 0px;
+  }
+  .works {
+    margin: 0 auto;
+    padding: 20px 16px;
+    width: 320px;
+  }
+  .works-container {
+    display: block;
+  }
+  .work-title {
+    font-weight: bold;
+  }
+  .work-large img {}
+  .work-small img {}
+  .img-container {
+  }
+  .work img {
+    width: 300px;
+    height: 300px;
+  }
+  .work {
+    margin: 20px auto;
+    padding: 10px 0;
+  }
+  .work a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .work-summary {
+    padding: 8px 0 0;
+    margin: 0;
+  }
+  .work-summary p {
+    padding: 4px 0;
+    margin: 0;
+  }
+
+  .navigation {
+    font-weight: bold;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer {
+    padding: 24px 0;
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+    color: #9b9b9b;
+  }
+
+  /* work detail */
+
+  .work-detail {
+      margin: 0 auto;
+      padding: 20px;
+      width: 100%;
+  }
+
+  .work-detail img {
+    margin: 0 auto;
+    width: 100%;
+    box-shadow: 0 0 20px 20px rgba(0,0,0,0.02);
+  }
+
+  .work-detail .image-square img {
+    box-shadow: 0 0 20px 20px rgba(0,0,0,0.02);
+  }
+
+  .work-detail .description {
+    margin: 20px auto 36px;
+  }
+
+  .work-detail .image-square {
+    margin: 0 auto;
+  }
+
+  .work-detail .image {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .tag {
+    margin: 4px 0 20px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  /* about me */
+  .about-contents {
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    display: block;
+  }
+  .about-image {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+  }
+  .about-image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-description .description-detail {
+    text-align: left;
+  }
+  .about-description {
+    width: 100%;
+    padding: 24px 0 16px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .about-navigation {
+    font-weight: bold;
+    max-width: 300px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px auto 0px;
+  }
+
+  .role {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .contact {
+    padding: 0;
+    margin: 0 0 40px;
+  }
+}

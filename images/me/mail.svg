@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Visual" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-me" transform="translate(-676.000000, -263.000000)" stroke="#000000">
+            <g id="Group-Copy" transform="translate(677.000000, 264.000000)">
+                <path d="M17.9246862,13.0596904 C17.9246862,13.5182893 17.5537657,13.8900753 17.0962343,13.8900753 L0.828451883,13.8900753 C0.370920502,13.8900753 0,13.5182893 0,13.0596904 L0,0.830384937 C0,0.371785983 0.370920502,0 0.828451883,0 L17.0962343,0 C17.5537657,0 17.9246862,0.371785983 17.9246862,0.830384937 L17.9246862,13.0596904 Z" id="Shape-Copy"></path>
+                <path d="M17.9541415,0.558 C17.9541415,0.558 18.1299239,3.07429283 16.2722335,4.33247699 C14.4143925,5.59066115 10.422836,9.63161621 8.96679417,9.63161621 C7.51075233,9.63161621 3.54420003,5.59066115 1.68643434,4.33247699 C-0.171331351,3.07429283 0.00445107555,0.558 0.00445107555,0.558" id="Shape-Copy-2" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
